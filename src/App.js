@@ -9,12 +9,12 @@ function App() {
     <Router>
       <div className="App">
         <Header/>
+        <h2>deploy succeed!</h2>
 
         <Routes>       
           <Route path="/" element={<HomePage/>}/>
           <Route path="/blog" element={<BlogPage/>}/>
         </Routes>
-        
 
       </div>
     </Router>
